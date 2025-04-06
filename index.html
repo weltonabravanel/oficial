@@ -106,7 +106,7 @@ Melhores Musicas Rock Nacional Anos 80 90 , Musicas Antigas , Musicas Antigas Na
 
 d = new Date();
 hour = d.getHours();
-if((hour >=0)&&(hour <7))
+if((hour >=0)&&(hour <6))
 {
 window.location = ('https://youtube.com.br');
 
@@ -118,9 +118,14 @@ window.location = ('https://youtubeplay.com.br/index3.html');
 
 }
 else
+if((hour >19)&&(hour <=23))
+{
+window.location = ('https://youtubeplay.com.br/index2.html');
+
+else
 
 {
-window.location = ('https://youtubeplay.com.br/index5.html');
+window.location = ('https://youtubeplay.com.br/index4.html');
 
 }
 
