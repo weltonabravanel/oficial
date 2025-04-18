@@ -1,10 +1,10 @@
-SITE_BASE_URL=https://youtubebrasil.vercel.app/
-
 <?php
 
 
-$site [] = 'YOUTUBE_API_KEY=AIzaSyAkpSUobS1_L2FztkyQ_2YM1kHobjv09CQ';
-
+$site [] = 'https://youtubeplay.com.br/index11.html';
+$site [] = 'https://youtubeplay.com.br/index8.html';
+$site [] = 'https://youtubeplay.com.br/index9.html';
+$site [] = 'https://youtubeplay.com.br/index10.html';
 
 
 $destino =rand(0, (count($site) -
