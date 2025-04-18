@@ -1,11 +1,9 @@
 <?php
-
-
-$site [] = 'https://youtubeplay.com.br/index11.html';
-$site [] = 'https://youtubeplay.com.br/index8.html';
-$site [] = 'https://youtubeplay.com.br/index9.html';
-$site [] = 'https://youtubeplay.com.br/index10.html';
-
+$site [] = 'https://youtubeplay.com.br/aovivo/cnnbrasil.html';
+$site [] = 'https://youtubeplay.com.br/aovivo/noticiascaracol.html';
+$site [] = 'https://youtubeplay.com.br/aovivo/cancaonova.html';
+$site [] = 'https://youtubeplay.com.br/aovivo/americatv.html';
+$site [] = 'https://youtubeplay.com.br/aovivo/jovempan.html';
 
 $destino =rand(0, (count($site) -
 2));
